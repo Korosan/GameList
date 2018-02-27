@@ -379,7 +379,7 @@ var Game={
 		for(var i=0;i<allclearsq.length;i++){
 			if(allclearsq[i].offsetTop==0){
 				alert("Your Lose");
-				window.location.href="GameX.html";
+				window.location.href="Game.html";
 				return false;
 			}
 		}
