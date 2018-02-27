@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position:relative;
+}
+body{
+	background: #aaa;
+}
+#startbtn{
+	width: 100px;
+	height: 40px;
+	background: blue;
+	border-radius: 4px;
+	color:#fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -20px;
+	z-index: 999;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+#gameset{
+	width:400px;
+	height: 500px;
+	background: white;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top:50%;
+	margin-top: -250px;
+	overflow: hidden;
+
+}
+.sq{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #E8E8E8;
+	background: red;
+	position: absolute;
+}
+.pointplace{
+	position: absolute;
+	left: 50%;
+	margin-left: -195px;
+	top: 50%;
+	margin-top: -300px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.pointplace i{
+	font-style: normal;
+}
