@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="css/game.css">
+	<script src="js/game.js"></script>
+</head>
+<body>
+	<span class="pointplace">分数：<i id="getpoint">0</i></span>
+	<div id="startbtn">开始游戏</div>
+	<div id="gameset"></div>
+</body>
+<script type="text/javascript">
+var btn=document.getElementById("startbtn");
+btn.onclick=function(){
+	Game.init();
+	document.body.removeChild(btn);
+}
+</script>
+</html>
